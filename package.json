@@ -1,0 +1,15 @@
+{
+  "name": "nodecli",
+  "version": "1.0.0",
+  "description": "cli exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Im Khem",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^4.0.0"
+  }
+}
