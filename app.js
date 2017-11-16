@@ -1,7 +1,10 @@
 const program = require('commander');
 const { prompt } = require('inquirer');
 
-const { randomGenInts } = require('./func');
+const { 
+  randomGenInts,
+  userDefinedInts
+} = require('./func');
 
 // Specify chosen menu item
 const option = [{type: 'input', name: 'choice', message: 'Choice:'}];
@@ -35,6 +38,7 @@ program
           break;
         case 2:
           userDefinedInts();
+          break;
       }
     })
   })
